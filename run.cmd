@@ -11,4 +11,4 @@ pushd "%SCRIPT_DIR%\build"
   call grunt download-electron
 popd
 
-"%SCRIPT_DIR%\build\electron-shell\electron" "%SCRIPT_DIR%\hello-app"
+"%SCRIPT_DIR%\build\electron\electron" "%SCRIPT_DIR%\hello-app"

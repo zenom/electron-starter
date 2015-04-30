@@ -10,4 +10,4 @@ pushd "${DIR}/build"
 	grunt download-electron
 popd
 
-"${DIR}/build/electron-shell/Electron.app/Contents/MacOS/Electron" "${DIR}/hello-app"
+"${DIR}/build/electron/Electron.app/Contents/MacOS/Electron" "${DIR}/hello-app"
